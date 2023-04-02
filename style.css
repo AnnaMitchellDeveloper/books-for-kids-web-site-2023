@@ -1,0 +1,31 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	background: #EEEEEE;
+}
+input {
+	flex: 2;
+	height: 40px;
+	margin-left: 20px;
+	border-radius: 10px;
+	border: 2px solid #3A98B9;
+}
+h1 {
+	margin: 0;
+	color: #3A98B9;
+}
+.container {
+	max-width: 1300px;
+	padding: 25px;
+}
+.heading {
+	display: flex;
+}
+.books {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 15px;
+}
+.book {
+	margin: 5px 55px;
+	height: 600px;
+}
