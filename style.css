@@ -8,10 +8,17 @@ input {
 	margin-left: 20px;
 	border-radius: 10px;
 	border: 2px solid #3A98B9;
+	padding: 0 10px;
 }
 h1 {
 	margin: 0;
 	color: #3A98B9;
+}
+p {
+	text-align: center;
+}
+img {
+	border-radius: 5px;
 }
 .container {
 	max-width: 1300px;
@@ -28,4 +35,14 @@ h1 {
 .book {
 	margin: 5px 55px;
 	height: 600px;
+}
+.link {
+	text-decoration: none;
+	font-weight: bold;
+	transition: all 500ms ease-in-out;
+	color: #3A98B9;
+	
+}
+.link:hover {
+	text-decoration: underline;
 }
